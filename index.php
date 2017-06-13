@@ -23,11 +23,12 @@
     </script>
   </head>
   <body>
-    <div
-      class="fb-like"
-      data-share="true"
-      data-width="450"
-      data-show-faces="true">
-    </div>
+    <div class="fb-login-button"
+         data-max-rows="1"
+         data-size="large"
+         data-button-type="continue_with"
+         data-show-faces="false"
+         data-auto-logout-link="false"
+         data-use-continue-as="false"></div>
   </body>
 </html>
